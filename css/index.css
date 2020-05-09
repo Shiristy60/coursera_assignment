@@ -71,18 +71,19 @@ h1{
 }
 
 .col1, .col2, .col3{
+	background-color: #E5E7E9;
 	position: relative;
 }
 
-.section > div > .col1{
+.section > div > .col1 .title{
 	background-color:#D2E1EF;
 }
 
-.section > div > .col2{
+.section > div > .col2 .title{
 	background-color:#D9D2EF
 }
 
-.section > div > .col3{
+.section > div > .col3 .title{
 	background-color:#F4E3F9;
 }
 
