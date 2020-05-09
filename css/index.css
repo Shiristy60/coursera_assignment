@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-size:120%;
+}
+@media (min-width: 992px){
+	.section > div > div{
+		width: 30%;
+		margin: 15px;
+	}
+}
+
+@media  (min-width: 768px) and (max-width:991px){
+	.section > div > div{
+		width: 46%;
+		margin:2%;
+	}
+
+	.section > div > .col3{
+		margin:left:2%;
+		margin-right:2%;
+		width:96%;
+	}
+}
+
+@media (max-width:767px){
+
+	.section{
+		margin-left:5%;
+		margin-right: 5%;
+	}
+
+	.section div div{
+		margin-bottom: 10px;
+	}
+
+}
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 75%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.section  div  div  .title {
+		font-size:35%;
+		font-weight: 800;
+		position: absolute;
+		top:0;
+		right:0;
+		margin-bottom:30px;
+		background-color: pink;
+		border: 1px solid black;
+		padding: 5px;
+	}
+
+.section  div  div{
+		border : 1px solid;
+		font-weight: 600;
+		padding:10px;
+		float :left;
+		padding-top: 50px;
+}
+
+
+.section  .row{
+	width: 100%;
+}
+
+.col1, .col2, .col3{
+	position: relative;
+}
+
+.section > div > .col1{
+	background-color:#D2E1EF;
+}
+
+.section > div > .col2{
+	background-color:#D9D2EF
+}
+
+.section > div > .col3{
+	background-color:#F4E3F9;
+}
+
