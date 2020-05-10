@@ -32,6 +32,10 @@ body{
 		margin-right: 10%;
 	}
 
+	.section > div > div{
+		height: 200px;
+	}
+
 	.section div div{
 		margin-bottom: 30px;
 	}
