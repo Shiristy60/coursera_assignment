@@ -28,25 +28,23 @@ body{
 @media (max-width:767px){
 
 	.section{
-		margin-left:5%;
-		margin-right: 5%;
+		margin-left:10%;
+		margin-right: 10%;
 	}
 
 	.section div div{
-		margin-bottom: 10px;
+		margin-bottom: 30px;
 	}
 
 }
 h1{
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 75%;
 	margin-top: 50px;
 	margin-bottom: 30px;
 }
 
 .section  div  div  .title {
-		font-size:35%;
 		font-weight: 800;
 		position: absolute;
 		top:0;
@@ -55,6 +53,8 @@ h1{
 		background-color: pink;
 		border: 1px solid black;
 		padding: 5px;
+		width:100px;
+		text-align: center;
 	}
 
 .section  div  div{
@@ -71,7 +71,7 @@ h1{
 }
 
 .col1, .col2, .col3{
-	background-color: #E5E7E9;
+	background-color: #BFC1C3;
 	position: relative;
 }
 
